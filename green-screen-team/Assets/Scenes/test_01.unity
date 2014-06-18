@@ -193,6 +193,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 68981585}
+  - 65: {fileID: 68981586}
   m_Layer: 0
   m_Name: Squamby_rt_ball_jnt
   m_TagString: Untagged
@@ -213,6 +214,18 @@ Transform:
   - {fileID: 1368158171}
   m_Father: {fileID: 545161837}
   m_RootOrder: 0
+--- !u!65 &68981586
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 68981584}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .25, y: .200000003, z: .200000003}
+  m_Center: {x: -.0250000004, y: .075000003, z: 0}
 --- !u!1 &91238208
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,6 +697,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 283469516}
+  - 65: {fileID: 283469517}
   m_Layer: 0
   m_Name: Squamby_lf_ball_jnt
   m_TagString: Untagged
@@ -704,6 +718,18 @@ Transform:
   - {fileID: 279452732}
   m_Father: {fileID: 1977016806}
   m_RootOrder: 0
+--- !u!65 &283469517
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 283469515}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .25, y: .200000003, z: .200000003}
+  m_Center: {x: .0250000004, y: -.075000003, z: 0}
 --- !u!1 &357863379
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,6 +740,7 @@ GameObject:
   - 4: {fileID: 357863380}
   - 95: {fileID: 357863382}
   - 114: {fileID: 357863381}
+  - 54: {fileID: 357863383}
   m_Layer: 0
   m_Name: Squamby07_DeletedWeightGroups
   m_TagString: Untagged
@@ -792,6 +819,21 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
+--- !u!54 &357863383
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 357863379}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &360075591
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,7 +988,7 @@ GameObject:
   m_Layer: 0
   m_Name: ColorImagePlane
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -1376725286, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -997,8 +1039,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 558688656}
   m_LocalRotation: {x: -.707106829, y: 0, z: 0, w: .707106829}
-  m_LocalPosition: {x: 20, y: 6, z: 30}
-  m_LocalScale: {x: 1.38452721, y: 1, z: 1}
+  m_LocalPosition: {x: 2, y: 0, z: -7}
+  m_LocalScale: {x: .138452694, y: .100000001, z: .100000001}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1078,6 +1120,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 685312626}
+  - 65: {fileID: 685312627}
   m_Layer: 0
   m_Name: Squamby_lf_hand_jnt
   m_TagString: Untagged
@@ -1099,6 +1142,18 @@ Transform:
   - {fileID: 1852451670}
   m_Father: {fileID: 2113653790}
   m_RootOrder: 0
+--- !u!65 &685312627
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 685312625}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .200000003, y: .200000003, z: .200000003}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &761421405
 GameObject:
   m_ObjectHideFlags: 0
@@ -1183,6 +1238,87 @@ Transform:
   - {fileID: 131139013}
   m_Father: {fileID: 1178102894}
   m_RootOrder: 2
+--- !u!1 &962455353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 962455358}
+  - 33: {fileID: 962455357}
+  - 65: {fileID: 962455356}
+  - 23: {fileID: 962455355}
+  - 114: {fileID: 962455354}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &962455354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 962455353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5874ceba1b1a054898c267278f32769, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!23 &962455355
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 962455353}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!65 &962455356
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 962455353}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .5, y: .5, z: .5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &962455357
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 962455353}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &962455358
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 962455353}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.791413069, y: 1.08125687, z: -6.87522268}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
 --- !u!1 &962853096
 GameObject:
   m_ObjectHideFlags: 0
@@ -1329,6 +1465,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1125258263}
+  - 65: {fileID: 1125258264}
   m_Layer: 0
   m_Name: Squamby_head_a_jnt
   m_TagString: Untagged
@@ -1352,6 +1489,18 @@ Transform:
   - {fileID: 1222565108}
   m_Father: {fileID: 570312980}
   m_RootOrder: 0
+--- !u!65 &1125258264
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1125258262}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .349999994, y: .349999994, z: .349999994}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1178102893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1560,7 +1709,7 @@ GameObject:
   m_Layer: 0
   m_Name: DepthImagePlane
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -1376725286, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1611,8 +1760,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1442144151}
   m_LocalRotation: {x: -.707106829, y: 0, z: 0, w: .707106829}
-  m_LocalPosition: {x: -20, y: 6, z: 30}
-  m_LocalScale: {x: 1.38452721, y: 1, z: 1}
+  m_LocalPosition: {x: -2, y: 0, z: -7}
+  m_LocalScale: {x: .138452694, y: .100000001, z: .100000001}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -1664,6 +1813,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1502209848}
+  - 65: {fileID: 1502209849}
   m_Layer: 0
   m_Name: Squamby_rt_hand_jnt
   m_TagString: Untagged
@@ -1685,6 +1835,18 @@ Transform:
   - {fileID: 91238209}
   m_Father: {fileID: 60316091}
   m_RootOrder: 0
+--- !u!65 &1502209849
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1502209847}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .200000003, y: .200000003, z: .200000003}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1533639036
 GameObject:
   m_ObjectHideFlags: 0
@@ -1889,6 +2051,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1750576670}
+  - 65: {fileID: 1750576671}
   m_Layer: 0
   m_Name: Squamby_hip_jnt
   m_TagString: Untagged
@@ -1910,6 +2073,18 @@ Transform:
   - {fileID: 2104891106}
   m_Father: {fileID: 171560672}
   m_RootOrder: 0
+--- !u!65 &1750576671
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750576669}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .200000003, y: .200000003, z: .400000006}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1783937035
 GameObject:
   m_ObjectHideFlags: 0
@@ -2054,6 +2229,76 @@ Transform:
   - {fileID: 1483950566}
   m_Father: {fileID: 685312626}
   m_RootOrder: 1
+--- !u!1 &1886869462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1886869466}
+  - 33: {fileID: 1886869465}
+  - 64: {fileID: 1886869464}
+  - 23: {fileID: 1886869463}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1886869463
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1886869462}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!64 &1886869464
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1886869462}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &1886869465
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1886869462}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1886869466
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1886869462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.04999995, z: -7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
 --- !u!1 &1916062418
 GameObject:
   m_ObjectHideFlags: 0
