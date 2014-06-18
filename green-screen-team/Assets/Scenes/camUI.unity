@@ -113,7 +113,7 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: b43cf94cf1d468443875c4b3ba8c5b51, type: 2}
-  m_CullingMode: 0
+  m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
@@ -149,7 +149,7 @@ GameObject:
   - 4: {fileID: 866110425}
   - 212: {fileID: 866110426}
   m_Layer: 0
-  m_Name: Background-GreenScreenTeam
+  m_Name: Outline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -248,6 +248,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1536120434}
   - 212: {fileID: 1536120435}
+  - 114: {fileID: 1536120436}
   m_Layer: 0
   m_Name: Lens
   m_TagString: Untagged
@@ -292,6 +293,18 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300008, guid: de4302db874819549bc67aac3b6b1623, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1536120436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1536120433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 211ece8f51ed2f74ebd866293397ae28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isRec: 0
 --- !u!1 &1864992133
 GameObject:
   m_ObjectHideFlags: 0
