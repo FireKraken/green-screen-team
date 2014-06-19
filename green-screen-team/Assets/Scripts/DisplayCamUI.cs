@@ -48,7 +48,7 @@ public class DisplayCamUI : MonoBehaviour {
 
 	void loadGameOver ()
 	{
-		// Application.LoadLevel ("GameOverScene");
+		Application.LoadLevel (0);
 	}
 
 	void OnGUI ()
