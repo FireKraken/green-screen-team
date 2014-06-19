@@ -6,6 +6,7 @@ public class RecFlash : MonoBehaviour {
 	public bool lightOn = true;
 	public float timer = 0.5f;
 	public GameObject rec;
+	public int heldTimes = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -24,6 +25,7 @@ public class RecFlash : MonoBehaviour {
 		{
 			timer = 0.5f;
 			rec.GetComponent<SpriteRenderer>().enabled = false;
+			heldTimes = 0;
 		}
 
 		if (timer <= 0 & lightOn == true & isActive == true)
@@ -37,6 +39,7 @@ public class RecFlash : MonoBehaviour {
 			rec.GetComponent<SpriteRenderer>().enabled = true;
 			lightOn = true;
 			timer = 0.5f;
+			heldTimes += 1;
 		}
 	
 	}
