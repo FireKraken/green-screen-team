@@ -9,7 +9,7 @@ public class LivesLeft : MonoBehaviour {
 	public Sprite batlow;
 
 	void Awake() {
-		DontDestroyOnLoad (transform.gameObject);
+		DontDestroyOnLoad (this);
 	}
 
 	// Use this for initialization
@@ -30,6 +30,12 @@ public class LivesLeft : MonoBehaviour {
 		{
 			battery.GetComponent<SpriteRenderer>().sprite = batlow;
 		}
-			
+	
+		//end game on 0 lives
+		if (lives == 0)
+		{
+			lives = 3;
+			Application.LoadLevel(0);
+		}
 	}
 }

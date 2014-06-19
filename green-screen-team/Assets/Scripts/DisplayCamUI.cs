@@ -42,12 +42,15 @@ public class DisplayCamUI : MonoBehaviour {
 
 		if (seconds < 0)
 		{
-			loadGameOver ();
+			levelOver ();
 		}
 	}
 
-	void loadGameOver ()
+	void levelOver ()
 	{
+		GameObject Battery = GameObject.Find ("Battery");
+		var batlives = Battery.GetComponent<LivesLeft>();
+		batlives.lives -= 1;
 		Application.LoadLevel (0);
 	}
 
