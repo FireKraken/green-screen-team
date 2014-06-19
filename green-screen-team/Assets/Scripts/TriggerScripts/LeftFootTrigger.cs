@@ -19,15 +19,23 @@ public class LeftFootTrigger : MonoBehaviour
 
 	void OnTriggerStay (Collider other)
 	{
-		Debug.Log ("Left foot in position!");
+		// Debug.Log ("Left foot in position!");
 		leftFoot = true;
 		renderer.material.color = Color.green;
 	}
 
 	void OnTriggerExit (Collider other)
 	{
-		Debug.Log ("Left foot no longer in position.");
+		// Debug.Log ("Left foot no longer in position.");
 		leftFoot = false;
 		renderer.material.color = Color.white;
+	}
+
+	public bool isLeftFoot ()
+	{
+		if (leftFoot == true)
+			return true;
+		else
+			return false;
 	}
 }

@@ -24,9 +24,16 @@ public class DisplayCamUI : MonoBehaviour {
 	void Update ()
 	{
 
+		/*if (GetComponent<HeadTrigger> ().isHead () && GetComponent<LeftHandTrigger> ().isLeftHand () && GetComponent<RightHandTrigger> ().isRightHand () && GetComponent<LeftFootTrigger> ().isLeftFoot () && GetComponent<RightFootTrigger> ().isRightFoot ())
+		{
+			Debug.Log ("Player is fully posed!");
+			isPosed = true;
+		}*/
+
 		if (isPosed == true)
 		{
 			Lens.GetComponent<SpriteRenderer>().enabled = true;
+			// StartCoroutine (loadNextLevel);
 		}
 		else if (isPosed == false)
 		{
@@ -38,7 +45,7 @@ public class DisplayCamUI : MonoBehaviour {
 		}
 
 		//timer
-		if (cantimer = true)
+		if (cantimer == true)
 		{
 			milliseconds -= Time.deltaTime;
 		}
