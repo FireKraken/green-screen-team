@@ -7,7 +7,6 @@ public class DisplayCamUI : MonoBehaviour {
 	public int seconds = 30;
 	private float milliseconds = 1.0f;
 	public GUIStyle newStyle;
-	public Font font;
 
 	// Use this for initialization
 	void Start () 
@@ -57,7 +56,7 @@ public class DisplayCamUI : MonoBehaviour {
 	void OnGUI ()
 	{
 
-		GUILayout.BeginArea (new Rect (Screen.width / 2 - 50, Screen.height * 0.93f, 100, 100));
+		GUILayout.BeginArea (new Rect (0, Screen.height * 0.93f, Screen.width, 100));
 
 		if (seconds >= 10)
 		{
