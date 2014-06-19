@@ -15,13 +15,17 @@ public class DisplayCamUI : MonoBehaviour {
 	void Update ()
 	{
 
-		if (isPosed = true)
+		if (isPosed == true)
 		{
 			Lens.GetComponent<SpriteRenderer>().enabled = true;
 		}
-		else
+		else if (isPosed == false)
 		{
 			Lens.GetComponent<SpriteRenderer>().enabled = false;
-		}	
+		}
+		else
+		{
+			Lens.GetComponent <SpriteRenderer> ().enabled = false;
+		}
 	}
 }
