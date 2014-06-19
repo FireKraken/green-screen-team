@@ -39,7 +39,7 @@ public class DisplayCamUI : MonoBehaviour {
 			milliseconds = 1f;
 		}
 
-		if (seconds < 0)
+		if (seconds == 0)
 		{
 			levelOver ();
 		}
