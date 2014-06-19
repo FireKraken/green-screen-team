@@ -7,9 +7,16 @@ public class LivesLeft : MonoBehaviour {
 	public Sprite batfull;
 	public Sprite batmid;
 	public Sprite batlow;
+	public static LivesLeft Instance;
 
 	void Awake() {
+		DontDestroyOnLoad(battery);
 		DontDestroyOnLoad (this);
+		
+		if (FindObjectsOfType(GetType()).Length > 1)
+		{
+			Destroy(gameObject);
+		}
 	}
 
 	// Use this for initialization

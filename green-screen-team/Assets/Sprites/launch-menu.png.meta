@@ -1,0 +1,90 @@
+fileFormatVersion: 2
+guid: ec69a270c803244ffaba9b58a252f985
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: launch-menu_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1640
+        width: 575
+        height: 408
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: launch-menu_1
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1544
+        width: 552
+        height: 504
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: launch-menu_2
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1478
+        width: 578
+        height: 570
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: launch-menu_3
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1534
+        width: 150
+        height: 514
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: launch-menu_4
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 1003
+        width: 574
+        height: 422
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 
