@@ -10,13 +10,8 @@ public class LivesLeft : MonoBehaviour {
 	public static LivesLeft Instance;
 
 	void Awake() {
-		DontDestroyOnLoad(battery);
+		DontDestroyOnLoad(gameObject);
 		DontDestroyOnLoad (this);
-		
-		if (FindObjectsOfType(GetType()).Length > 1)
-		{
-			Destroy(gameObject);
-		}
 	}
 
 	// Use this for initialization

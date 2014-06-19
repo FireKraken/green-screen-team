@@ -50,7 +50,10 @@ public class DisplayCamUI : MonoBehaviour {
 		GameObject Battery = GameObject.Find ("Battery");
 		var batlives = Battery.GetComponent<LivesLeft>();
 		batlives.lives -= 1;
-		Application.LoadLevel (0);
+		if (Application.loadedLevel == 0)
+		{
+			Application.LoadLevel (1);
+		}
 	}
 
 	void OnGUI ()
