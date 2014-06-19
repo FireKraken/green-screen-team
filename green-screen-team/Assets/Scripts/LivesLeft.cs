@@ -2,17 +2,12 @@
 using System.Collections;
 
 public class LivesLeft : MonoBehaviour {
-	public int lives = 3;
 	public GameObject battery;
 	public Sprite batfull;
 	public Sprite batmid;
 	public Sprite batlow;
-	public static LivesLeft Instance;
+	public int batnum;
 
-	void Awake() {
-		DontDestroyOnLoad(gameObject);
-		DontDestroyOnLoad (this);
-	}
 
 	// Use this for initialization
 	void Start () {
@@ -20,23 +15,23 @@ public class LivesLeft : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (lives == 3)
+		batnum = setLives.lives;
+		if (batnum == 3)
 		{
 			battery.GetComponent<SpriteRenderer>().sprite = batfull;
 		}
-		else if (lives == 2)
+		else if (batnum == 2)
 		{
 			battery.GetComponent<SpriteRenderer>().sprite = batmid;
 		}
-		else if (lives == 1)
+		else if (batnum == 1)
 		{
 			battery.GetComponent<SpriteRenderer>().sprite = batlow;
 		}
 	
 		//end game on 0 lives
-		if (lives == 0)
+		if (batnum == 0)
 		{
-			lives = 3;
 			Application.LoadLevel(0);
 		}
 	}

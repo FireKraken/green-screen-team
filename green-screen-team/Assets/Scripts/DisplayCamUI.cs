@@ -7,12 +7,17 @@ public class DisplayCamUI : MonoBehaviour {
 	public int seconds = 30;
 	private float milliseconds = 1.0f;
 	public GUIStyle newStyle;
+	public bool cantimer = true;
 
 	// Use this for initialization
 	void Start () 
 	{
 		isPosed = false;
 		newStyle.fontSize = Screen.width / 25;
+		if (Application.loadedLevel == 0)
+		{
+			cantimer = false;
+		}
 	}
 	
 	// Update is called once per frame
@@ -32,7 +37,11 @@ public class DisplayCamUI : MonoBehaviour {
 			Lens.GetComponent <SpriteRenderer> ().enabled = false;
 		}
 
-		milliseconds -= Time.deltaTime;
+		//timer
+		if (cantimer = true)
+		{
+			milliseconds -= Time.deltaTime;
+		}
 		if (milliseconds < 0)
 		{
 			seconds -= 1;
@@ -47,12 +56,10 @@ public class DisplayCamUI : MonoBehaviour {
 
 	void levelOver ()
 	{
-		GameObject Battery = GameObject.Find ("Battery");
-		var batlives = Battery.GetComponent<LivesLeft>();
-		batlives.lives -= 1;
-		if (Application.loadedLevel == 0)
+		setLives.lives -= 1;
+		if (Application.loadedLevel == 1)
 		{
-			Application.LoadLevel (1);
+			Application.LoadLevel (2);
 		}
 	}
 
