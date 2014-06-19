@@ -109,8 +109,9 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 1
+  m_SortingLayerID: 0
   m_Sprite: {fileID: 21300006, guid: de4302db874819549bc67aac3b6b1623, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &2070790
@@ -124,7 +125,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 793685215}
-  m_RootOrder: 1
 --- !u!114 &2070791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,28 +141,39 @@ MonoBehaviour:
   timer: .5
   rec: {fileID: 2070788}
   heldTimes: 0
---- !u!1 &6010399
+--- !u!1 &148522974
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 6010401}
-  - 212: {fileID: 6010400}
+  - 4: {fileID: 148522975}
+  - 212: {fileID: 148522976}
   m_Layer: 0
-  m_Name: superman-1-scene_6
+  m_Name: break-dance-scene_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!212 &6010400
+--- !u!4 &148522975
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 148522974}
+  m_LocalRotation: {x: 0, y: 0, z: .167976394, w: .985791087}
+  m_LocalPosition: {x: 5.55118704, y: 4.71175623, z: 5.1844368}
+  m_LocalScale: {x: .551513493, y: .551514208, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1637152358}
+--- !u!212 &148522976
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 6010399}
+  m_GameObject: {fileID: 148522974}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -175,82 +186,44 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300012, guid: 1abe8dea4da8d42dcb32476cbdd9ad33, type: 3}
+  m_SortingLayerID: 0
+  m_Sprite: {fileID: 21300000, guid: 299928ffa6e314060bf9d5f8b6923ae7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!4 &6010401
+--- !u!1 &327555780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 327555781}
+  - 212: {fileID: 327555782}
+  m_Layer: 0
+  m_Name: break-dance-scene_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &327555781
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 6010399}
-  m_LocalRotation: {x: 0, y: 0, z: .353397578, w: -.935473263}
-  m_LocalPosition: {x: 8.35722065, y: -3.3374505, z: 0}
-  m_LocalScale: {x: -.699999988, y: .567509294, z: 1}
+  m_GameObject: {fileID: 327555780}
+  m_LocalRotation: {x: 0, y: 0, z: .129283801, w: .991607666}
+  m_LocalPosition: {x: -6.68267632, y: 2.37843275, z: 5.1844368}
+  m_LocalScale: {x: .56616801, y: .56616658, z: 1}
   m_Children: []
-  m_Father: {fileID: 65161109}
-  m_RootOrder: 5
---- !u!1 &65161108
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 65161109}
-  m_Layer: 0
-  m_Name: Superman Scene
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &65161109
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 65161108}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.54729426, y: -.377596408, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 398250514}
-  - {fileID: 1465410081}
-  - {fileID: 1671855329}
-  - {fileID: 818676828}
-  - {fileID: 390989731}
-  - {fileID: 6010401}
-  - {fileID: 950883614}
-  - {fileID: 929152170}
-  - {fileID: 1202761826}
-  - {fileID: 203918664}
-  - {fileID: 2061287899}
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
---- !u!1 &203918662
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 203918664}
-  - 212: {fileID: 203918663}
-  m_Layer: 0
-  m_Name: superman-2-scene_3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &203918663
+  m_Father: {fileID: 1637152358}
+--- !u!212 &327555782
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 203918662}
+  m_GameObject: {fileID: 327555780}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -263,44 +236,44 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300006, guid: b0bf126b9385040d89026b0155911f56, type: 3}
+  m_SortingLayerID: 0
+  m_Sprite: {fileID: 21300002, guid: 299928ffa6e314060bf9d5f8b6923ae7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!4 &203918664
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 203918662}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.59200525, y: -.164293557, z: 6.45065117}
-  m_LocalScale: {x: .567506611, y: .567509294, z: 1}
-  m_Children: []
-  m_Father: {fileID: 65161109}
-  m_RootOrder: 9
---- !u!1 &390989729
+--- !u!1 &529358974
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 390989731}
-  - 212: {fileID: 390989730}
+  - 4: {fileID: 529358975}
+  - 212: {fileID: 529358976}
   m_Layer: 0
-  m_Name: superman-1-scene_5
+  m_Name: break-dance-scene_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!212 &390989730
+--- !u!4 &529358975
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 529358974}
+  m_LocalRotation: {x: 0, y: 0, z: .0176936816, w: .999843478}
+  m_LocalPosition: {x: -6.62435293, y: -1.7084403, z: 5.1844368}
+  m_LocalScale: {x: .580937207, y: .580937386, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1637152358}
+--- !u!212 &529358976
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 390989729}
+  m_GameObject: {fileID: 529358974}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -313,71 +286,10 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300010, guid: 1abe8dea4da8d42dcb32476cbdd9ad33, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!4 &390989731
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 390989729}
-  m_LocalRotation: {x: 0, y: 0, z: .315417022, w: -.948953152}
-  m_LocalPosition: {x: 5.59653807, y: -3.41080165, z: 0}
-  m_LocalScale: {x: -.560000002, y: .567509294, z: 1}
-  m_Children: []
-  m_Father: {fileID: 65161109}
-  m_RootOrder: 4
---- !u!1 &398250513
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 398250514}
-  - 212: {fileID: 398250515}
-  m_Layer: 0
-  m_Name: superman-1-scene_1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &398250514
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 398250513}
-  m_LocalRotation: {x: 0, y: 0, z: .658873141, w: .752254128}
-  m_LocalPosition: {x: -6.89331675, y: -1.08438003, z: 0}
-  m_LocalScale: {x: -.660694182, y: .750210285, z: 1}
-  m_Children: []
-  m_Father: {fileID: 65161109}
-  m_RootOrder: 0
---- !u!212 &398250515
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 398250513}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300002, guid: 1abe8dea4da8d42dcb32476cbdd9ad33, type: 3}
+  m_Sprite: {fileID: 21300006, guid: 299928ffa6e314060bf9d5f8b6923ae7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &793685214
 GameObject:
@@ -406,10 +318,8 @@ Transform:
   m_LocalPosition: {x: -9.53674316e-07, y: -.0325763226, z: 14.0367022}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1423566522}
   - {fileID: 2070790}
   m_Father: {fileID: 1864992139}
-  m_RootOrder: 1
 --- !u!212 &793685216
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -428,8 +338,9 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
+  m_SortingLayerID: 0
   m_Sprite: {fileID: 21300008, guid: de4302db874819549bc67aac3b6b1623, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &793685217
@@ -505,56 +416,6 @@ MonoBehaviour:
     m_FixedHeight: 0
     m_StretchWidth: 1
     m_StretchHeight: 0
---- !u!1 &818676826
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 818676828}
-  - 212: {fileID: 818676827}
-  m_Layer: 0
-  m_Name: superman-1-scene_4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &818676827
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 818676826}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300008, guid: 1abe8dea4da8d42dcb32476cbdd9ad33, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!4 &818676828
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 818676826}
-  m_LocalRotation: {x: 0, y: 0, z: .137573764, w: .990491509}
-  m_LocalPosition: {x: -5.5958972, y: -2.88303089, z: 0}
-  m_LocalScale: {x: .567506611, y: .567509294, z: 1}
-  m_Children: []
-  m_Father: {fileID: 65161109}
-  m_RootOrder: 3
 --- !u!1 &866110424
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,7 +443,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1864992139}
-  m_RootOrder: 0
 --- !u!212 &866110426
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -601,32 +461,44 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
+  m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: cd48d303d52634742b5bf603363a4290, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!1 &929152168
+--- !u!1 &977385559
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 929152170}
-  - 212: {fileID: 929152169}
+  - 4: {fileID: 977385560}
+  - 212: {fileID: 977385561}
   m_Layer: 0
-  m_Name: superman-2-scene_1
+  m_Name: break-dance-scene_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!212 &929152169
+--- !u!4 &977385560
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 977385559}
+  m_LocalRotation: {x: 0, y: 0, z: -.0574372411, w: .99834913}
+  m_LocalPosition: {x: 5.89856815, y: -.706939459, z: 5.1844368}
+  m_LocalScale: {x: .659067154, y: .659067154, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1637152358}
+--- !u!212 &977385561
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 929152168}
+  m_GameObject: {fileID: 977385559}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -639,289 +511,42 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300002, guid: b0bf126b9385040d89026b0155911f56, type: 3}
+  m_SortingLayerID: 0
+  m_Sprite: {fileID: 21300004, guid: 299928ffa6e314060bf9d5f8b6923ae7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!4 &929152170
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 929152168}
-  m_LocalRotation: {x: 0, y: 0, z: .597411931, w: -.8019346}
-  m_LocalPosition: {x: 7.24500895, y: 5.37428856, z: 6.45065117}
-  m_LocalScale: {x: .648774981, y: .648777902, z: 1}
-  m_Children: []
-  m_Father: {fileID: 65161109}
-  m_RootOrder: 7
---- !u!1 &950883612
+--- !u!1 &1637152357
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 950883614}
-  - 212: {fileID: 950883613}
+  - 4: {fileID: 1637152358}
   m_Layer: 0
-  m_Name: superman-2-scene_0
+  m_Name: BreakDance Scene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!212 &950883613
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 950883612}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b0bf126b9385040d89026b0155911f56, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!4 &950883614
+--- !u!4 &1637152358
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 950883612}
-  m_LocalRotation: {x: 0, y: 0, z: .726487935, w: -.687179267}
-  m_LocalPosition: {x: 6.69084311, y: 2.87017989, z: 6.45065117}
-  m_LocalScale: {x: .714906335, y: .714908361, z: 1}
-  m_Children: []
-  m_Father: {fileID: 65161109}
-  m_RootOrder: 6
---- !u!1 &1202761824
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1202761826}
-  - 212: {fileID: 1202761825}
-  m_Layer: 0
-  m_Name: superman-2-scene_2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1202761825
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1202761824}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300004, guid: b0bf126b9385040d89026b0155911f56, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!4 &1202761826
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1202761824}
-  m_LocalRotation: {x: 0, y: 0, z: .409889609, w: .912135124}
-  m_LocalPosition: {x: -5.17305374, y: .256784946, z: 6.45065117}
-  m_LocalScale: {x: .553672671, y: .609229684, z: 1}
-  m_Children: []
-  m_Father: {fileID: 65161109}
-  m_RootOrder: 8
---- !u!1 &1423566521
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1423566522}
-  - 212: {fileID: 1423566524}
-  - 114: {fileID: 1423566523}
-  m_Layer: 0
-  m_Name: Battery
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1423566522
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1423566521}
+  m_GameObject: {fileID: 1637152357}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.22150135, y: 4.53010178, z: 0}
+  m_LocalPosition: {x: 1.54729426, y: -.377596408, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 793685215}
-  m_RootOrder: 0
---- !u!114 &1423566523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1423566521}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91b59d36a0e9541498433be1b2657009, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lives: 3
-  battery: {fileID: 1423566521}
-  batfull: {fileID: 21300000, guid: de4302db874819549bc67aac3b6b1623, type: 3}
-  batmid: {fileID: 21300002, guid: de4302db874819549bc67aac3b6b1623, type: 3}
-  batlow: {fileID: 21300004, guid: de4302db874819549bc67aac3b6b1623, type: 3}
---- !u!212 &1423566524
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1423566521}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: de4302db874819549bc67aac3b6b1623, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!1 &1465410079
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1465410081}
-  - 212: {fileID: 1465410080}
-  m_Layer: 0
-  m_Name: superman-1-scene_2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1465410080
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1465410079}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300004, guid: 1abe8dea4da8d42dcb32476cbdd9ad33, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!4 &1465410081
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1465410079}
-  m_LocalRotation: {x: 0, y: 0, z: .27800554, w: .960579515}
-  m_LocalPosition: {x: -6.81092167, y: 3.54415894, z: 0}
-  m_LocalScale: {x: .615169704, y: .599580884, z: 1}
-  m_Children: []
-  m_Father: {fileID: 65161109}
-  m_RootOrder: 1
---- !u!1 &1671855327
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1671855329}
-  - 212: {fileID: 1671855328}
-  m_Layer: 0
-  m_Name: superman-1-scene_3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1671855328
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1671855327}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300006, guid: 1abe8dea4da8d42dcb32476cbdd9ad33, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!4 &1671855329
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1671855327}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.27531481, y: -1.54284418, z: 0}
-  m_LocalScale: {x: .567506611, y: .567509294, z: 1}
-  m_Children: []
-  m_Father: {fileID: 65161109}
-  m_RootOrder: 2
+  m_Children:
+  - {fileID: 148522975}
+  - {fileID: 327555781}
+  - {fileID: 977385560}
+  - {fileID: 529358975}
+  - {fileID: 1952167615}
+  m_Father: {fileID: 0}
 --- !u!1 &1864992133
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,11 +650,8 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
   m_HDR: 0
   m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: .0219999999
 --- !u!4 &1864992139
 Transform:
   m_ObjectHideFlags: 0
@@ -1043,29 +665,28 @@ Transform:
   - {fileID: 866110425}
   - {fileID: 793685215}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
---- !u!1 &2061287897
+--- !u!1 &1952167613
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 2061287899}
-  - 212: {fileID: 2061287898}
+  - 4: {fileID: 1952167615}
+  - 212: {fileID: 1952167614}
   m_Layer: 0
-  m_Name: superman-2-scene_4
+  m_Name: break-dance-scene_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!212 &2061287898
+--- !u!212 &1952167614
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2061287897}
+  m_GameObject: {fileID: 1952167613}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -1078,19 +699,69 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 3
   m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300008, guid: b0bf126b9385040d89026b0155911f56, type: 3}
+  m_Sprite: {fileID: 21300008, guid: 299928ffa6e314060bf9d5f8b6923ae7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!4 &2061287899
+--- !u!4 &1952167615
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2061287897}
-  m_LocalRotation: {x: 0, y: 0, z: .325005502, w: .945712209}
-  m_LocalPosition: {x: -6.81389713, y: 2.12741232, z: 6.45065117}
-  m_LocalScale: {x: .567505538, y: .567509115, z: 1}
+  m_GameObject: {fileID: 1952167613}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .510935426, y: -3.08206892, z: 5.1844368}
+  m_LocalScale: {x: .564636648, y: .541531205, z: 1}
   m_Children: []
-  m_Father: {fileID: 65161109}
-  m_RootOrder: 10
+  m_Father: {fileID: 1637152358}
+--- !u!1 &2090882724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2090882726}
+  - 212: {fileID: 2090882725}
+  m_Layer: 0
+  m_Name: breakdancer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &2090882725
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2090882724}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 12
+  m_SortingLayerID: 0
+  m_Sprite: {fileID: 21300000, guid: c5a69a73436a53a41802631f9292765c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &2090882726
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2090882724}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.51970863, y: .578339994, z: 5.1844368}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
