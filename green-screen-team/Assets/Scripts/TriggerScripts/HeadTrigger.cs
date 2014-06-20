@@ -19,16 +19,22 @@ public class HeadTrigger : MonoBehaviour
 	
 	void OnTriggerStay (Collider other)
 	{
-		// Debug.Log ("Head in position!");
-		head = true;
-		renderer.material.color = Color.green;
+		if (other.tag == "head")
+		{
+			head = true;
+			renderer.material.color = Color.green;
+			// Debug.Log ("Head in position!");
+		}
 	}
 	
 	void OnTriggerExit (Collider other)
 	{
-		// Debug.Log ("Head no longer in position.");
-		head = false;
-		renderer.material.color = Color.white;
+		if (other.tag == "head")
+		{
+			head = false;
+			renderer.material.color = Color.white;
+			// Debug.Log ("Head no longer in position.");
+		}
 	}
 
 	public bool isHead ()

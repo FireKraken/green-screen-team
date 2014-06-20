@@ -19,16 +19,22 @@ public class RightFootTrigger : MonoBehaviour
 	
 	void OnTriggerStay (Collider other)
 	{
-		// Debug.Log ("Right foot in position!");
-		rightFoot = true;
-		renderer.material.color = Color.green;
+		if (other.tag == "right_foot")
+		{
+			rightFoot = true;
+			renderer.material.color = Color.green;
+			// Debug.Log ("Right foot in position!");
+		}
 	}
 	
 	void OnTriggerExit (Collider other)
 	{
-		// Debug.Log ("Right foot no longer in position.");
-		rightFoot = false;
-		renderer.material.color = Color.white;
+		if (other.tag == "right_foot")
+		{
+			rightFoot = false;
+			renderer.material.color = Color.white;
+			// Debug.Log ("Right foot no longer in position.");
+		}
 	}
 
 	public bool isRightFoot ()

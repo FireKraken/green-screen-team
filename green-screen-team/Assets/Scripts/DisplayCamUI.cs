@@ -3,11 +3,16 @@ using System.Collections;
 
 public class DisplayCamUI : MonoBehaviour {
 	public bool isPosed = false;
-	public GameObject Lens;
 	public int seconds = 30;
 	private float milliseconds = 1.0f;
 	public GUIStyle newStyle;
-	public bool cantimer = true;
+	public bool canTimer = true;
+
+	public HeadTrigger headCheck;
+	public LeftHandTrigger leftHandCheck;
+	public RightHandTrigger rightHandCheck;
+	public LeftFootTrigger leftFootCheck;
+	public RightFootTrigger rightFootCheck;
 
 	// Use this for initialization
 	void Start () 
@@ -16,7 +21,7 @@ public class DisplayCamUI : MonoBehaviour {
 		newStyle.fontSize = Screen.width / 25;
 		if (Application.loadedLevel == 0)
 		{
-			cantimer = false;
+			canTimer = false;
 		}
 	}
 	
@@ -24,28 +29,24 @@ public class DisplayCamUI : MonoBehaviour {
 	void Update ()
 	{
 
-		/*if (GetComponent<HeadTrigger> ().isHead () && GetComponent<LeftHandTrigger> ().isLeftHand () && GetComponent<RightHandTrigger> ().isRightHand () && GetComponent<LeftFootTrigger> ().isLeftFoot () && GetComponent<RightFootTrigger> ().isRightFoot ())
+		if (headCheck.isHead () && leftHandCheck.isLeftHand() && rightHandCheck.isRightHand () && leftFootCheck.isLeftFoot () && rightFootCheck.isRightFoot ())
 		{
-			Debug.Log ("Player is fully posed!");
 			isPosed = true;
-		}*/
+		}
+
+		else
+		{
+			isPosed = false;
+		}
+
 
 		if (isPosed == true)
 		{
-			Lens.GetComponent<SpriteRenderer>().enabled = true;
-			// StartCoroutine (loadNextLevel);
-		}
-		else if (isPosed == false)
-		{
-			Lens.GetComponent<SpriteRenderer>().enabled = false;
-		}
-		else
-		{
-			Lens.GetComponent <SpriteRenderer> ().enabled = false;
+			StartCoroutine ("loadNextLevel");
 		}
 
 		//timer
-		if (cantimer == true)
+		if (canTimer == true)
 		{
 			milliseconds -= Time.deltaTime;
 		}
@@ -68,6 +69,16 @@ public class DisplayCamUI : MonoBehaviour {
 		{
 			Application.LoadLevel (2);
 		}
+	}
+
+	IEnumerator loadNextLevel ()
+	{
+		canTimer = false;
+		yield return new WaitForSeconds (3);
+		if (Application.loadedLevel == 1)
+			Application.LoadLevel (2);
+		else if (Application.loadedLevel == 3)
+			Application.LoadLevel (4);
 	}
 
 	void OnGUI ()

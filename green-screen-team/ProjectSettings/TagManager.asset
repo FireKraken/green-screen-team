@@ -3,6 +3,11 @@
 --- !u!78 &1
 TagManager:
   tags:
+  - head
+  - left_hand
+  - right_hand
+  - left_foot
+  - right_foot
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

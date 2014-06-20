@@ -19,16 +19,22 @@ public class RightHandTrigger : MonoBehaviour
 	
 	void OnTriggerStay (Collider other)
 	{
-		// Debug.Log ("Right hand in position!");
-		rightHand = true;
-		renderer.material.color = Color.green;
+		if (other.tag == "right_hand")
+		{
+			rightHand = true;
+			renderer.material.color = Color.green;
+			// Debug.Log ("Right hand in position!");
+		}
 	}
 	
 	void OnTriggerExit (Collider other)
 	{
-		// Debug.Log ("Right hand no longer in position.");
-		rightHand = false;
-		renderer.material.color = Color.white;
+		if (other.tag == "right_hand")
+		{
+			rightHand = false;
+			renderer.material.color = Color.white;
+			// Debug.Log ("Right hand no longer in position.");
+		}
 	}
 
 	public bool isRightHand ()
