@@ -1,0 +1,38 @@
+Initialize engine version: 4.5.0f6 (fd4616464986)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 780 (ID=0x1004)
+    Vendor:   NVIDIA
+    VRAM:     2994 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\research.HEX-DEVPC-WKS10\Documents\GitHub\green-screen-team\Exe\Green Screen Team_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\research.HEX-DEVPC-WKS10\Documents\GitHub\green-screen-team\Exe\Green Screen Team_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\research.HEX-DEVPC-WKS10\Documents\GitHub\green-screen-team\Exe\Green Screen Team_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\research.HEX-DEVPC-WKS10\Documents\GitHub\green-screen-team\Exe\Green Screen Team_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\research.HEX-DEVPC-WKS10\Documents\GitHub\green-screen-team\Exe\Green Screen Team_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\research.HEX-DEVPC-WKS10\Documents\GitHub\green-screen-team\Exe\Green Screen Team_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.047 seconds
+Initialize engine version: 4.5.0f6 (fd4616464986)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 780 (ID=0x1004)
+    Vendor:   NVIDIA
+    VRAM:     2994 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\research.HEX-DEVPC-WKS10\Documents\GitHub\green-screen-team\Exe\Green Screen Team_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\research.HEX-DEVPC-WKS10\Documents\GitHub\green-screen-team\Exe\Green Screen Team_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\research.HEX-DEVPC-WKS10\Documents\GitHub\green-screen-team\Exe\Green Screen Team_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\research.HEX-DEVPC-WKS10\Documents\GitHub\green-screen-team\Exe\Green Screen Team_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\research.HEX-DEVPC-WKS10\Documents\GitHub\green-screen-team\Exe\Green Screen Team_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\research.HEX-DEVPC-WKS10\Documents\GitHub\green-screen-team\Exe\Green Screen Team_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.036 seconds
+desktop: 1680x1050 60Hz; virtual: 1680x1050 at 0,0
+desktop: 1680x1050 60Hz; virtual: 1680x1050 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found.
+<RI> Input initialized.
+<RI> Initializing input.
+XInput1_3.dll not found.
+<RI> Input initialized.
