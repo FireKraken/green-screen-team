@@ -33,11 +33,11 @@ public class Winscene : MonoBehaviour {
 
 		if (Application.loadedLevel == 1)
 		{
-		GUILayout.BeginArea (new Rect (Screen.width*(2/3), Screen.height * 0.90f, Screen.width/3, 100));
+			GUILayout.BeginArea (new Rect (Screen.width*(2/3), Screen.height * 0.90f, Screen.width/3, 100));
 
-		GUILayout.Label ("Loading...", newStyle);
-				
-		GUILayout.EndArea ();
+			GUILayout.Label ("Loading...", newStyle);
+					
+			GUILayout.EndArea ();
 		}
 	}
 }

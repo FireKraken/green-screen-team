@@ -43,6 +43,12 @@ public class DisplayCamUI : MonoBehaviour {
 			isPosed = false;
 		}
 
+		// Press 'F' to win BreakDance scene
+		if (Application.loadedLevel == 4)
+		{
+			if (Input.GetKeyDown (KeyCode.F))
+				isPosed = true;
+		}
 
 		if (isPosed == true)
 		{
@@ -69,26 +75,26 @@ public class DisplayCamUI : MonoBehaviour {
 	void levelOver ()
 	{
 		setLives.lives -= 1;
-		if (Application.loadedLevel == 1)
+		if (Application.loadedLevel == 2)
 		{
-			Application.LoadLevel (2);
+			Application.LoadLevel (4);
 		}
 	}
 
 	IEnumerator loadNextLevel ()
 	{
 		canTimer = false;
-		if (Application.loadedLevel == 1)
+		if (Application.loadedLevel == 2)
 		{
 			PlayerOne.renderer.material = superSquamby;
 			yield return new WaitForSeconds (3);
-			Application.LoadLevel (2);
+			Application.LoadLevel (3);
 		}
-		else if (Application.loadedLevel == 2)
+		else if (Application.loadedLevel == 4)
 		{
 			PlayerOne.renderer.material = bBoySquamby;
 			yield return new WaitForSeconds (3);
-			Application.LoadLevel (4);
+			Application.LoadLevel (5);
 		}
 	}
 
