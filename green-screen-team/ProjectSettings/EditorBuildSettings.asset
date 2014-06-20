@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
   - enabled: 1
+    path: Assets/Scenes/intro.unity
+  - enabled: 1
     path: Assets/Scenes/Superman.unity
   - enabled: 1
+    path: Assets/Scenes/superman_winscene.unity
+  - enabled: 1
     path: Assets/Scenes/BreakDance.unity
+  - enabled: 1
+    path: Assets/Scenes/breakdance_winscene.unity
