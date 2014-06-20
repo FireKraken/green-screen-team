@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: squamby
+  m_Name: BBoySquamby
   m_Shader: {fileID: 4800000, guid: e896d3a3309776f42ad2c0aea1976f3f, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
@@ -17,7 +17,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: dfde46292c779b342ba10e0b9bc5d002, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats: {}
@@ -25,4 +25,4 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .866666675, g: .203921571, b: .87843138, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}

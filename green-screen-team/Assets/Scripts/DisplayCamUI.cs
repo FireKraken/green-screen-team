@@ -8,6 +8,10 @@ public class DisplayCamUI : MonoBehaviour {
 	public GUIStyle newStyle;
 	public bool canTimer = true;
 
+	public GameObject PlayerOne;
+	public Material superSquamby;
+	public Material bBoySquamby;
+
 	public HeadTrigger headCheck;
 	public LeftHandTrigger leftHandCheck;
 	public RightHandTrigger rightHandCheck;
@@ -74,11 +78,18 @@ public class DisplayCamUI : MonoBehaviour {
 	IEnumerator loadNextLevel ()
 	{
 		canTimer = false;
-		yield return new WaitForSeconds (3);
 		if (Application.loadedLevel == 1)
+		{
+			PlayerOne.renderer.material = superSquamby;
+			yield return new WaitForSeconds (3);
 			Application.LoadLevel (2);
-		else if (Application.loadedLevel == 3)
+		}
+		else if (Application.loadedLevel == 2)
+		{
+			PlayerOne.renderer.material = bBoySquamby;
+			yield return new WaitForSeconds (3);
 			Application.LoadLevel (4);
+		}
 	}
 
 	void OnGUI ()

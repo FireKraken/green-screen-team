@@ -1,0 +1,128 @@
+fileFormatVersion: 2
+guid: a7935b59ca90f8b4195ac8d8b1fbc11b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: RoughModel
+    100002: //RootNode
+    100004: Squamby_head_a_jnt
+    100006: Squamby_head_b_jnt
+    100008: Squamby_hip_jnt
+    100010: Squamby_lf_ankle_jnt
+    100012: Squamby_lf_ball_jnt
+    100014: Squamby_lf_clavicle_jnt
+    100016: Squamby_lf_elbow_jnt
+    100018: Squamby_lf_finger_jnt
+    100020: Squamby_lf_hand_jnt
+    100022: Squamby_lf_knee_jnt
+    100024: Squamby_lf_toe_jnt
+    100026: Squamby_lf_upArm_jnt
+    100028: Squamby_lf_upLeg_jnt
+    100030: Squamby_lf_wrist_jnt
+    100032: Squamby_neck_jnt
+    100034: Squamby_rt_ankle_jnt
+    100036: Squamby_rt_ball_jnt
+    100038: Squamby_rt_clavicle_jnt
+    100040: Squamby_rt_elbow_jnt
+    100042: Squamby_rt_finger_jnt
+    100044: Squamby_rt_hand_jnt
+    100046: Squamby_rt_knee_jnt
+    100048: Squamby_rt_toe_jnt
+    100050: Squamby_rt_upArm_jnt
+    100052: Squamby_rt_upLeg_jnt
+    100054: Squamby_rt_wrist_jnt
+    100056: Squamby_Skeleton_grp
+    100058: Squamby_spine_end_jnt
+    100060: Squamby_spine_hi_jnt
+    100062: Squamby_spine_low_jnt
+    100064: Squamby_spine_mid_jnt
+    400000: RoughModel
+    400002: //RootNode
+    400004: Squamby_head_a_jnt
+    400006: Squamby_head_b_jnt
+    400008: Squamby_hip_jnt
+    400010: Squamby_lf_ankle_jnt
+    400012: Squamby_lf_ball_jnt
+    400014: Squamby_lf_clavicle_jnt
+    400016: Squamby_lf_elbow_jnt
+    400018: Squamby_lf_finger_jnt
+    400020: Squamby_lf_hand_jnt
+    400022: Squamby_lf_knee_jnt
+    400024: Squamby_lf_toe_jnt
+    400026: Squamby_lf_upArm_jnt
+    400028: Squamby_lf_upLeg_jnt
+    400030: Squamby_lf_wrist_jnt
+    400032: Squamby_neck_jnt
+    400034: Squamby_rt_ankle_jnt
+    400036: Squamby_rt_ball_jnt
+    400038: Squamby_rt_clavicle_jnt
+    400040: Squamby_rt_elbow_jnt
+    400042: Squamby_rt_finger_jnt
+    400044: Squamby_rt_hand_jnt
+    400046: Squamby_rt_knee_jnt
+    400048: Squamby_rt_toe_jnt
+    400050: Squamby_rt_upArm_jnt
+    400052: Squamby_rt_upLeg_jnt
+    400054: Squamby_rt_wrist_jnt
+    400056: Squamby_Skeleton_grp
+    400058: Squamby_spine_end_jnt
+    400060: Squamby_spine_hi_jnt
+    400062: Squamby_spine_low_jnt
+    400064: Squamby_spine_mid_jnt
+    4300000: RoughModel
+    9500000: //RootNode
+    13700000: RoughModel
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
