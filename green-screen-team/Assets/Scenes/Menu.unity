@@ -560,4 +560,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 134c84232ab6bb646ab336a5c5365398, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movTexture: {fileID: 15200000, guid: cab49fb59f10d614da23e1b51745b129, type: 3}
+  movTexture: {fileID: 15200000, guid: 40ccebeceac242d47910be110f5036a7, type: 3}
+  movTexture2: {fileID: 15200000, guid: 07e90ae9158a4f44d95cac648395c67d, type: 3}
+  movTexture3: {fileID: 15200000, guid: 7cdf64bd9c3cfbe4e9c0a605d620d5d6, type: 3}
+  chosenVid: 0
+  screen: {fileID: 0}
+  movTime: 3

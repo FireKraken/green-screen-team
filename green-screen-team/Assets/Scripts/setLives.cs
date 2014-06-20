@@ -21,6 +21,7 @@ public class setLives : MonoBehaviour {
 
 	void OnGUI (){
 		GUI.skin = skin;
+		GUI.color = new Color(1,1,1,0.0f);
 		if (GUI.Button(position, title))
 		{
 			Application.LoadLevel(1);
